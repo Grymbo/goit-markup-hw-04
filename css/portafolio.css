@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px
+}
+.font-first{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.font-second{
+    font-family: 'Raleway';
+    font-style: normal;
+}
+.container-links{
+    background: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0px 30px 37px;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.webstudio{
+    font-weight: 700;
+    width: 145px;
+    height: 31px;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+.nav-link{
+    margin:20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #2196f3;
+}
+.nav-link1{
+    margin:20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+.nav-link1:hover{
+    color: #2196f3;
+}
+header{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.button-header{
+    background: #f5f4fa;
+    width: 128px;
+    height: 38px;
+    margin: 20px;
+}
+.button-header:hover{
+    background-color: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.button-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.header-box{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 85px;
+}
+.container-card{
+    margin: 30px;
+    box-sizing: border-box;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.container-text{
+    padding-left: 15px;
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+}
+.container-color{
+    padding-left: 15px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+footer{
+    height: 255px;
+    background: #2f303a;
+}
+.footer-text{
+    width: 231px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 00.03em;
+}
+.footer-color{
+    color: #ffffff;
+}
+.footer-color1{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-box{
+    padding-top: 60px;
+    padding-left: 150px;
+}

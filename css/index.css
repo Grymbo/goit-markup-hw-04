@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px
+}
+.container-links{
+    background: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0px 30px 37px;
+    max-width: 1600px;
+    margin: auto;
+}
+.font-first{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+.font-second{
+    font-family: 'Raleway';
+    font-style: normal;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+}
+.webstudio{
+    font-weight: 700;
+    width: 145px;
+    height: 31px;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
+}
+.nav-link{
+    margin: 30px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #2196f3;
+}
+.nav-link1{
+    margin: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+.nav-link1:hover{
+    color: #2196f3;
+}
+.header{
+    padding: 20px;
+    margin: auto;
+    height: 600px;  
+    background: #2f303a;
+}
+.title-header{
+    font-weight: 900;
+    text-align: center;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header-box{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.button-header{
+    background: #ffffff;
+    padding: 10px 32px;   
+}
+.button-header:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 15);
+    border-radius: 4px;
+    background: #2196f3;
+    color: #ffffff;
+}
+.button-header-text{
+    text-align: center;
+    letter-spacing: 00.06em;
+    color: #212121;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+}
+.list{
+    list-style: none;
+}
+.description-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding-top: 95px;
+    margin: auto;
+}
+.description-text{
+    width: 270px;
+    height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 00.03em;
+    color: #212121;
+}
+.description-text1{
+    width: 270px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 00.03em;
+    color: #757575;
+}
+.job{
+    padding: 94px 20px 20px 20px;
+    /*width: 1600px;*/
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.job-box-text{
+    display: flex;
+    justify-content: center;
+}
+.job-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    width: 371px;
+    height: 46px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.job-box-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding-top: 55px;
+}
+.team{
+    margin-top: 94px;
+    padding-bottom: 95px;
+    background-color: #F5F4FA;
+}
+.team-title{
+    display: flex;
+    padding-top: 94px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team-work{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.team-card{
+    text-align: center;
+    background: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.container-clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-text{
+    height: 37px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+footer{
+    height: 255px;
+    background: #2f303a;
+}
+.footer-text{
+    width: 231px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 00.03em;
+}
+.footer-color{
+    color: #ffffff;
+}
+.footer-color1{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-box{
+    padding-top: 60px;
+    padding-left: 150px;
+}
