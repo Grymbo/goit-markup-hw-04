@@ -61,7 +61,7 @@ body{
     color: #2196f3;
 }
 .header{
-    background-image: url("/images/equipo-de-trabajo.jpg");
+    background-image: url("../images/equipo-de-trabajo.jpg");
     padding: 20px;
     background-repeat: no-repeat;
     margin: auto;
