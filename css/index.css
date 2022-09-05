@@ -281,7 +281,3 @@ footer{
 .logo-card2:hover{
     background: #2196f3;
 }
-.logo-card3{
-    display: flex;
-    justify-content: space-between;
-}
