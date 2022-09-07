@@ -168,8 +168,8 @@ body{
     flex-direction: column;
     justify-content: flex-end;
 }
-.contenedor-escritorio1{
-    background-image: url("../images/aplicaciones-moviles.jpg");
+.contenedor-escritorio2{
+    background-image: url("../images/soluciones-de-diseño.jpg");
     width: 370px;
     height: 294px;
     margin: 20px;
@@ -177,8 +177,8 @@ body{
     flex-direction: column;
     justify-content: flex-end;
 }
-.contenedor-escritorio2{
-    background-image: url("../images/soluciones-de-diseño.jpg");
+.contenedor-escritorio1{
+    background-image: url("../images/aplicaciones-moviles.jpg");
     width: 370px;
     height: 294px;
     margin: 20px;
