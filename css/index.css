@@ -12,7 +12,15 @@ body{
     justify-content:space-around;
     padding: 30px 0px 30px 37px;
     max-width: 1600px;
-    margin: auto;
+    /*margin: auto;*/
+}
+.celular{
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+.celular:hover{
+    fill: #2196f3;
 }
 .font-first{
     font-family: 'Roboto';
@@ -48,8 +56,12 @@ body{
 .nav-link:hover{
     color: #2196f3;
 }
+.nav-link2{
+    padding: 10PX;
+    display: inline;
+}
 .nav-link1{
-    margin: 20px;
+    /*margin: 20px;*/
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -142,11 +154,50 @@ body{
     letter-spacing: 00.03em;
     color: #757575;
 }
+.contenedorx{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contenedor-escritorio{
+    background-image: url("../images/aplicaciones-de-escritorio.jpg");
+    width: 370px;
+    height: 294px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.contenedor-escritorio1{
+    background-image: url("../images/aplicaciones-moviles.jpg");
+    width: 370px;
+    height: 294px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.contenedor-escritorio2{
+    background-image: url("../images/Solucionesdediseño.jpg");
+    width: 370px;
+    height: 294px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.texto-imagen{
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #ffffff;
+    text-align: center;
+    padding: 27px 0 27px 0;
+    margin-bottom: 0;
+}
 .job{
     padding: 94px 20px 20px 20px;
     display: flex;
     flex-direction: column;
-    
 }
 .job-box-text{
     display: flex;
@@ -162,15 +213,6 @@ body{
     line-height: 42px;
     letter-spacing: 0.03em;
     color: #212121;
-}
-.job-box-images{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:space-evenly;
-    padding-top: 55px;
-}
-.job-box-images1{
-    border: 11px solid #ffffff;
 }
 .team{
     margin-top: 94px;
@@ -196,6 +238,9 @@ body{
     background: #ffffff;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.t{
+    color: #757575;
 }
 .logo-card{
     width: 15px;

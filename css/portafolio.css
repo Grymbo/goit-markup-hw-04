@@ -36,6 +36,7 @@ body{
 }
 .nav-link{
     margin:20px;
+    margin-top: 50px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -58,8 +59,12 @@ body{
 .nav-link1:hover{
     color: #2196f3;
 }
+.nav-link2{
+    padding: 10PX;
+    display: inline;
+}
 header{
-    padding-top: 100px;
+    padding-top: 40px;
     padding-bottom: 50px;
 }
 .button-header{
@@ -85,6 +90,7 @@ header{
 }
 .header-box{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .container{
@@ -92,6 +98,7 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 85px;
+    background: #f5f4fa;
 }
 .container-card{
     margin: 30px;
@@ -100,6 +107,8 @@ header{
     height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
+}
+.container-card:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .container-text{
@@ -159,8 +168,14 @@ footer{
 .logo-card2:hover{
     background: #2196f3;
 }
-.logo-card3{
-    display: flex;
-    justify-content: space-between;
+
+
+.celular{
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
+.celular:hover{
+    fill: #2196f3;
 }
 
