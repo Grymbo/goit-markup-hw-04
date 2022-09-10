@@ -4,23 +4,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-size: 16px
-}
-.container-links{
-    background: #ffffff;
-    display: flex;
-    justify-content:space-around;
-    padding: 30px 0px 30px 37px;
-    max-width: 1600px;
-    /*margin: auto;*/
-}
-.celular{
-    width: 16px;
-    height: 12px;
-    fill: #757575;
-}
-.celular:hover{
-    fill: #2196f3;
+    font-size: 16px;
 }
 .font-first{
     font-family: 'Roboto';
@@ -30,10 +14,62 @@ body{
     font-family: 'Raleway';
     font-style: normal;
 }
-.container-nav{
+
+
+/*header{
     display: flex;
     justify-content: space-around;
-    width: 800px;
+    padding: 30px 0;
+}*/
+
+header{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.header-contenedor{
+    text-align: center;
+    padding: 30px 0;
+}
+.header-contenedor:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.header-contenedor:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-top: 12px;
+}
+.header-contenedor:nth-child(3){
+    grid-column-start: 4;
+    grid-column-end: 5;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-around;
+}
+.contenedor2:hover::after{
+    content: '';
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    height: 5px;
+    width: 65px;
+    padding-bottom: 28px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #2196f3;
+}
+.contenedor3:hover::after{
+    content: '';
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    height: 5px;
+    width: 200px;
+    padding-bottom: 39px;
+    box-sizing: border-box;
+    border-bottom: 4px solid #2196f3;
 }
 .webstudio{
     font-weight: 700;
@@ -45,7 +81,6 @@ body{
     color: #2196f3;
 }
 .nav-link{
-    margin: 30px;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -53,8 +88,38 @@ body{
     color: #212121;
     text-decoration: none;
 }
+.celular{
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+}
 .nav-link:hover{
     color: #2196f3;
+}
+
+
+
+
+
+
+
+
+.container-links{
+    background: #ffffff;
+    display: flex;
+    justify-content:space-around;
+    padding: 30px 0px 30px 37px;
+    max-width: 1600px;
+}
+.celular:hover{
+    width: 16px;
+    height: 12px;
+    fill: #2196f3;
+}
+.container-nav{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
 }
 .nav-link2{
     padding: 10PX;
@@ -74,7 +139,6 @@ body{
 }
 .header{
     background-image: url("../images/equipo-de-trabajo.jpg");
-    padding: 20px;
     background-repeat: no-repeat;
     margin: auto;
     height: 600px;
